@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CosDivX\CosDivX.csproj" />
     <ProjectReference Include="..\Laba5\Laba5.csproj" />
   </ItemGroup>
 

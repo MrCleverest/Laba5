@@ -1,22 +1,24 @@
-﻿using System;
+﻿using Microsoft.Analytics.Interfaces;
+using Microsoft.Analytics.Interfaces.Streaming;
+using Microsoft.Analytics.Types.Sql;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel;
 
-namespace Laba5
+namespace CosDivX
 {
-    public class CosDivX
+    public class CosDivXx
     {
         double x;
         double sqr;
         double min = 0.001;
-        public CosDivX()
+        public CosDivXx()
         {
             x = 0;
         }
-        public CosDivX(double xx)
+        public CosDivXx(double xx)
         {
             x = xx;
             sqr = x * x;
@@ -26,7 +28,6 @@ namespace Laba5
         {
             double sum = 1, current = 1;
             int n = 2, mul = -1;
-
             do
             {
                 current = current * sqr / n++ / n++;

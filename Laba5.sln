@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba5", "Laba5\Laba5.csproj", "{20E58097-460E-48CE-9194-A926930849F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosDivXTest", "CosDivXTest\CosDivXTest.csproj", "{B7B8B9CB-BE08-4294-9431-A74495F626F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosDivXTest", "CosDivXTest\CosDivXTest.csproj", "{B7B8B9CB-BE08-4294-9431-A74495F626F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosDivX", "CosDivX\CosDivX.csproj", "{E7BE77CB-7F56-4CB1-85DB-53CA1D5051D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B7B8B9CB-BE08-4294-9431-A74495F626F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B8B9CB-BE08-4294-9431-A74495F626F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B8B9CB-BE08-4294-9431-A74495F626F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BE77CB-7F56-4CB1-85DB-53CA1D5051D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BE77CB-7F56-4CB1-85DB-53CA1D5051D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BE77CB-7F56-4CB1-85DB-53CA1D5051D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BE77CB-7F56-4CB1-85DB-53CA1D5051D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

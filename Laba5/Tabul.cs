@@ -1,4 +1,5 @@
 ﻿using System;
+using CosDivX;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace Laba5
                 double y = 0, yCycle = 0, yRecursive = 1;
                 while (x < xk)
                 {
-                    var cosDivX = new CosDivX(x);
+                    var cosDivX = new CosDivXx(x);
                     y = Math.Cos(x) / x;
                     yCycle = cosDivX.CosDivX_cikle();
                     yRecursive = 1;
